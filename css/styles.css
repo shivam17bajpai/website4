@@ -1,0 +1,159 @@
+
+ #first{
+    background-color: #1B2631  ;
+ }
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+ h3{
+   color: white;
+}
+h4,p{
+   color: white;
+   text-align: center;
+
+}
+
+
+#latestmovie {
+   text-align: center;
+
+}
+
+#latestmovie img {
+   margin: 0 0 10px ;
+
+}
+
+
+
+.foot li{
+
+   display: inline;
+   padding: 60px;
+   text-align: center;
+
+   
+}
+.foot i{
+   font-size: 1.5rem;
+
+   
+}
+
+
+#footer-main {
+    background: #222;
+    color: white;
+    padding: 40px 0px;
+
+
+}
+
+ #latestmovie img:hover{
+   transform:scale(1.15);
+ }
+
+
+
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   
+   .size img{
+      height: 50px; width: 80px;
+   }
+ 
+.navbar-brand {
+   padding: 5px 100px  ;
+   
+
+}
+
+.font{
+    padding:5px 50px;
+
+}
+
+/* --------------------------------------
+   Carousel.
+   -------------------------------------- */
+
+#maincarousel {
+   margin-top: 0rem;
+}
+
+#maincarousel .item { height: 300px; }
+
+#movie1 {
+   background: url('../../images/h1.jpg') top center no-repeat;
+}
+
+#movie2 {
+   background: url('../../images/h2.jpg') top center no-repeat;
+}
+
+#movie3 {
+   background: url('../../images/h3.jpg') top center no-repeat;
+}
+
+
+#movie4 {
+   background: url('../../images/h4.jpg') top center no-repeat;
+}
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	
+}
+
+
+
+/* --------------------------------------
+  second page
+   -------------------------------------- */
+
+#cover {
+    background: #222 url('../images/review.jpg') center center no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+
+#cover-caption {
+   
+    margin-top: 640px;
+}
