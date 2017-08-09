@@ -1,6 +1,9 @@
 
- #first{
+ #first {
     background-color: #1B2631  ;
+ }
+ #tr{
+   margin-top: 100px;
  }
 /* --------------------------------------
    Layout
@@ -22,6 +25,7 @@ h4,p{
 
 #latestmovie img {
    margin: 0 0 10px ;
+
 
 }
 
@@ -56,6 +60,15 @@ h4,p{
 
 
 
+.rating .stars {
+    float: left;
+    width: 60px;
+    height: 11px;
+    background: url('images/stars.gif') no-repeat 0 0;
+    margin-left: 500px;
+}
+
+
 
 
 /* --------------------------------------
@@ -87,28 +100,11 @@ h4,p{
    Carousel.
    -------------------------------------- */
 
-#maincarousel {
-   margin-top: 0rem;
+
+.carousel-item { 
+  height: 520px; 
 }
 
-#maincarousel .item { height: 300px; }
-
-#movie1 {
-   background: url('../../images/h1.jpg') top center no-repeat;
-}
-
-#movie2 {
-   background: url('../../images/h2.jpg') top center no-repeat;
-}
-
-#movie3 {
-   background: url('../../images/h3.jpg') top center no-repeat;
-}
-
-
-#movie4 {
-   background: url('../../images/h4.jpg') top center no-repeat;
-}
 
 
 /* --------------------------------------
