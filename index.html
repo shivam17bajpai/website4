@@ -12,8 +12,9 @@
 </head>
 
 <body id="first">
+    <!--main container-->
     <div class="container">
-        <nav class="navbar navbar-toggleable-md navbar-light" style="background-color: #e3f2fd;">
+        <nav class="navbar navbar-toggleable-md navbar-light fixed-top bg-faded ">
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -39,6 +40,9 @@
             </div>
             <!--navbar-collapse-->
         </nav>
+        <br>
+        <br>
+        <br>
         <div class="carousel slide" id="maincarousel" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#maincarousel" data-slide-to="0" class="active"></li>
@@ -48,16 +52,16 @@
             </ol>
             <div class="carousel-inner" role="listbox">
                 <div class="carousel-item ">
-                    <img class="d-block img-fluid" src="images/h1.jpg" alt="First slide">
+                    <img class="d-block img-fluid " src="images/movie-lg-3.png" alt="First slide">
                 </div>
                 <div class="carousel-item ">
-                    <img class="d-block img-fluid" src="images/h5.jpg" alt="Second slide">
+                    <img class="d-block img-fluid" src="images/movie-lg-2.png" alt="Second slide">
                 </div>
                 <div class="carousel-item active">
-                    <img class="d-block img-fluid" src="images/h3.jpg" alt="Third slide">
+                    <img class="d-block img-fluid" src="images/movie-lg-1.png" alt="Third slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block img-fluid" src="images/h4.jpg" alt="fourth slide">
+                    <img class="d-block img-fluid" src="images/movie-lg-4.png" alt="fourth slide">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#maincarousel" role="button" data-slide="prev">
@@ -70,113 +74,121 @@
   </a>
         </div>
         <!--end carousel-->
+        <!--starting modal window-->
+        <div id="mymodal" class="modal fade">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Trapped</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body trailer">
+                        <p>
+                            A thriller that captures a young man's desperate attempts to escape from the isolation of an apartment in the heart of Mumbai. Director Vikramaditya Motwane Starring Rajkummar Rao, Geetanjali Thapa, Yogendra Vikram Singh Genres Bollywood: Thriller, World Cinema: Indian Subtitles English [CC] Audio Languages हिन्दी</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end modal window-->
         <br>
-        <br>
-        <div class="row" id="heading">
-            <div class="col-12">
-                <h3>Latest Movies</h3>
+        <div class="card card-inverse card-primary mb-3 text-center">
+            <div class="card-block">
+                <blockquote class="card-blockquote">
+                    <h3>Latest Movies</h3>
+                </blockquote>
             </div>
         </div>
         <br>
-     
         <div class="row" id="latestmovie">
             <div class="col-sm-4">
                 <h4> Trapped</h4>
-                <img src="images/l1.jpg" alt="Trapped">
+                <img src="images/latest1.jpg" class="short" alt="Trapped">
                 <p> A thriller that captures a young man's desperate attempts to escape. </p>
-                <a href="movies.html" class="btn btn-success btn-block"> WATCH MOVIE </a>
+                <a href="movies.html" class="btn btn-success btn-block" data-target="#mymodal" data-toggle="modal"> WATCH MOVIE </a>
             </div>
             <!--end col-4 -->
             <div class="col-sm-4">
                 <h4> Raabta</h4>
-                <img src="images/l2.jpg" alt="Raabta">
-                <p>A woman crosses paths with her reincarnated lover from a previous lifetime. </p>
-                <a href="movies.html" class="btn btn-success btn-block"> WATCH MOVIE </a>
+                <img src="images/latest2.jpg" class="short" alt="Raabta">
+                <p>A woman crosses paths with her reincarnated lover . </p>
+                <a href="movies.html" class="btn btn-success btn-block" data-target="#mymodal" data-toggle="modal"> WATCH MOVIE </a>
             </div>
             <!--end col-4 -->
             <div class="col-sm-4">
                 <h4> Badrinath Ki Dulhania</h4>
-                <img src="images/l3.jpg" alt="Badrinath Ki Dulhania">
-                <p>Badrinath Ki Dulhania is a story of Badrinath Bansal from Jhansi and Vaidehi Trivedi.
+                <img src="images/latest3.jpg" class="short" alt="Badrinath Ki Dulhania">
+                <p>Badrinath Ki Dulhania is a story of Badrinath Bansal from Jhansi.
                 </p>
                 <a href="movies.html" class="btn btn-success btn-block"> WATCH MOVIE </a>
             </div>
             <!--end col-4 -->
         </div>
         <!--end latestmovie -->
-        <br>
-        <br>
- 
-        <div class="row" id="heading">
-            <div class="col-12">
-                <h3>Hollywood Movies</h3>
+        <div class="card card-inverse card-primary mb-3 text-center">
+            <div class="card-block">
+                <blockquote class="card-blockquote">
+                    <h3>Hollywood Movies</h3>
+                </blockquote>
             </div>
         </div>
         <br>
         <div class="row" id="latestmovie">
             <div class="col-sm-4">
                 <h4> Harry Potter</h4>
-                <img src="images/ho1.jpg" alt="Harry Potter and the Sorcerer's Stone">
+                <img src="images/Hollywood1.jpg" class="short" alt="Harry Potter and the Sorcerer's Stone">
                 <p> Based on the wildly popular J.K. Rowling's book about a young boy.</p>
-                <a href="#" class="btn btn-success btn-block"> WATCH MOVIE </a>
+                <a href="#" class="btn btn-success btn-block" data-target="#mymodal" data-toggle="modal"> WATCH MOVIE </a>
             </div>
             <!--end col-4 -->
-            <br>
             <div class="col-sm-4">
                 <h4> Suicide Squad</h4>
-                <img src="images/ho2.jpg" alt="Suicide Squad">
+                <img src="images/Hollywood2.jpg" class="short" alt="Suicide Squad">
                 <p>A secret government agency recruits imprisoned supervillains. </p>
-                <a href="#" class="btn btn-success btn-block"> WATCH MOVIE </a>
+                <a href="#" class="btn btn-success btn-block" data-target="#mymodal" data-toggle="modal"> WATCH MOVIE </a>
             </div>
             <!--end col-4 -->
             <div class="col-sm-4">
                 <h4> The Conjuring 2</h4>
-                <img src="images/ho3.jpg" alt="The Conjuring 2">
-                <p>Renowned demonologists Lorraine and Ed Warren travel to north London.</p>
-                <a href="#" class="btn btn-success btn-block"> WATCH MOVIE </a>
+                <img src="images/Hollywood3.jpg" class="short" alt="The Conjuring 2">
+                <p>Renowned demonologists Lorraine and Ed Warren travel to London.</p>
+                <a href="#" class="btn btn-success btn-block" data-target="#mymodal" data-toggle="modal"> WATCH MOVIE </a>
             </div>
             <!--end col-4 -->
         </div>
         <!--end latestmovie -->
-        <br>
-        <br>
-        <!-- 
-
-<div class="container">
-<div class="card card-inverse card-warning card-primary mb-3 text-center">
-  <div class="card-block">
-    <blockquote class="card-blockquote">
-        <h3>Comedy Specials</h3>
-    </blockquote>
-  </div>
-</div>
- -->
-        <div class="row" id="heading">
-            <div class="col-12">
-                <h3>Comedy Specials</h3>
+        <div class="card card-inverse card-primary mb-3 text-center">
+            <div class="card-block">
+                <blockquote class="card-blockquote">
+                    <h3>Comedy Specials</h3>
+                </blockquote>
             </div>
         </div>
         <br>
         <div class="row" id="latestmovie">
             <div class="col-sm-4">
                 <h4> Shaandaar</h4>
-                <img src="images/c1.jpg" alt="Shaandaar">
-                <p>A young wedding planner, Shahid Kapoor, brings together Bipin Arora's flawed family.</p>
-                <a href="#" class="btn btn-success btn-block"> WATCH MOVIE </a>
+                <img src="images/Comedy1.jpg" class="short" alt="Shaandaar">
+                <p>A young wedding planner, Shahid Kapoor, brings together Bipin Arora's.</p>
+                <a href="#" class="btn btn-success btn-block" data-target="#mymodal" data-toggle="modal"> WATCH MOVIE </a>
             </div>
             <!--end col-4 -->
             <div class="col-sm-4">
                 <h4>The Smurfs 2</h4>
-                <img src="images/c2.jpg" alt="The Smurfs 2">
+                <img src="images/Comedy2.jpg" class="short" alt="The Smurfs 2">
                 <p>The Smurfs are back with this follow-up to the blockbuster smash hit from 2011. </p>
-                <a href="#" class="btn btn-success btn-block"> WATCH MOVIE </a>
+                <a href="#" class="btn btn-success btn-block" data-target="#mymodal" data-toggle="modal"> WATCH MOVIE </a>
             </div>
             <!--end col-4 -->
             <div class="col-sm-4">
                 <h4>Ladies vs Ricky Bahl</h4>
-                <img src="images/c3.jpg" alt="Ladies vs Ricky Bahl">
+                <img src="images/Comedy3.jpg" class="short" alt="Ladies vs Ricky Bahl">
                 <p>Three very different girls each get duped for money.</p>
-                <a href="#" class="btn btn-success btn-block"> WATCH MOVIE </a>
+                <a href="#" class="btn btn-success btn-block" data-target="#mymodal" data-toggle="modal"> WATCH MOVIE </a>
             </div>
             <!--end col-4 -->
         </div>
@@ -189,13 +201,13 @@
     </div>
     </div>
     <footer id="footer-main">
-        <div class="container">
+        <div class="container ">
             <div class="row">
                 <div class="col-sm-3">
                     <h3>Copyright &copy;    2017   Shivam Bajpai </h3>
                 </div>
                 <!--end col-sm-4-->
-                <div>
+                <div class="col-sm-9">
                     <ul class="foot">
                         <h4>Stay In Touch</h4>
                         <li> <a href="  http://facebook.com/"><i class="fa fa-facebook"></i></a></li>
@@ -207,6 +219,7 @@
                 <!--end col-sm-6-->
             </div>
         </div>
+        <!--end main container-->
     </footer>
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>

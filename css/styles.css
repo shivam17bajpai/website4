@@ -1,48 +1,55 @@
+#first {
+    background-color: #1B2631;
+}
 
- #first {
-    background-color: #1B2631  ;
- }
- #tr{
-   margin-top: 100px;
- }
+#tr {
+    margin-top: 100px;
+}
+
 /* --------------------------------------
    Layout
    -------------------------------------- */
- h3{
-   color: white;
-}
-h4,p{
-   color: white;
-   text-align: center;
 
+h3 {
+    color: white;
 }
 
+h4,
+p {
+    color: white;
+    text-align: center;
+}
+
+/* --------------------------------------
+   movie column images
+   -------------------------------------- */
+.short {
+    width: 55%;
+    height: 50%;
+    align-content: center;
+}
 
 #latestmovie {
-   text-align: center;
-
+    text-align: center;
 }
 
 #latestmovie img {
-   margin: 0 0 10px ;
-
-
+    margin: 0 0 10px;
 }
 
 
+/* --------------------------------------
+  footer
+   -------------------------------------- */
 
-.foot li{
-
-   display: inline;
-   padding: 60px;
-   text-align: center;
-
-   
+.foot li {
+    display: inline;
+    padding: 75px;
+    text-align: center;
 }
-.foot i{
-   font-size: 1.5rem;
 
-   
+.foot i {
+    font-size: 1.5rem;
 }
 
 
@@ -50,15 +57,11 @@ h4,p{
     background: #222;
     color: white;
     padding: 40px 0px;
-
-
 }
 
- #latestmovie img:hover{
-   transform:scale(1.15);
- }
-
-
+#latestmovie img:hover {
+    transform: scale(1.15);
+}
 
 .rating .stars {
     float: left;
@@ -68,68 +71,108 @@ h4,p{
     margin-left: 500px;
 }
 
-
-
-
-/* --------------------------------------
-   Typography
-   -------------------------------------- */
-
+.trailer p {
+    color: black;
+}
 
 
 /* --------------------------------------
    Navbar
    -------------------------------------- */
-   
-   .size img{
-      height: 50px; width: 80px;
-   }
- 
+
+.size img {
+    height: 50px;
+    width: 80px;
+}
+
 .navbar-brand {
-   padding: 5px 100px  ;
-   
-
+    padding: 5px 100px;
 }
 
-.font{
-    padding:5px 50px;
-
+.font {
+    padding: 5px 50px;
 }
+
 
 /* --------------------------------------
    Carousel.
    -------------------------------------- */
 
-
-.carousel-item { 
-  height: 520px; 
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    align-content: center;
+    margin-top: 5px;
 }
-
-
-
-/* --------------------------------------
-   Global Styles
-   -------------------------------------- */
-
 
 
 /* --------------------------------------
    Media Queries
    -------------------------------------- */
 
+
 /* Portrait & landscape phone */
+
 @media (max-width: 480px) {
-	
+
+    .carousel-item img {
+        width: 100%;
+        height: 70%;
+        align-content: center;
+        margin-top: 5px;
+    }
+    /* --------------------------------------
+   footer Media Queries
+   -------------------------------------- */
+    .foot li {
+
+        display: inline;
+        padding: 25px;
+        text-align: center;
+    }
+    .foot i {
+        font-size: 1.5rem;
+    }
+
+
+    #footer-main {
+        background: #222;
+        color: white;
+        padding: 40px 0px;
+    }
 }
+
 
 /* Landscape phone to portrait tablet */
-@media (max-width: 768px) {
-	
-}
 
-/* Large desktop */
-@media (min-width: 1200px) {
-	
+@media (max-width: 768px) {
+
+
+    .carousel-item img {
+        width: 100%;
+        height: 90%;
+        align-content: center;
+        margin-top: 5px;
+    }
+    /* --------------------------------------
+   footer Media Queries
+   -------------------------------------- */
+    .foot li {
+
+        display: inline;
+        padding: 25px;
+        text-align: center;
+    }
+    .foot i {
+        font-size: 1.5rem;
+    }
+
+
+    #footer-main {
+        background: #222;
+        color: white;
+        padding: 40px 0px;
+    }
 }
 
 
@@ -139,7 +182,7 @@ h4,p{
    -------------------------------------- */
 
 #cover {
-    background: #222 url('../images/review.jpg') center center no-repeat;
+    background: #222 url('../images/trailer.png') center center no-repeat;
     background-size: cover;
     color: white;
     height: 100%;
@@ -150,6 +193,6 @@ h4,p{
 
 
 #cover-caption {
-   
+
     margin-top: 640px;
 }
