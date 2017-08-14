@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -10,29 +9,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="css/styles.css" rel="stylesheet">
 </head>
-
 <body>
-<!--start container-->
+    <!--start container-->
     <div class="container">
-        <div class="modal fade">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title">Modal title</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <p>Modal body text goes here.</p>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-primary">Save changes</button>
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    </div>
-                </div>
-            </div>
-        </div>
         <!--start navigation-->
         <nav class="navbar navbar-toggleable-md navbar-light  fixed-top bg-faded">
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -60,50 +39,57 @@
             </div>
             <!--navbar-collapse-->
         </nav>
+        <br>
+        <br>
+        <br>
         <!--end navigation-->
-        <section id="cover">
-            <div id="cover-caption">
-                <div class="container">
+        <!--start carousel-->
+        <div class="carousel slide" id="maincarousel" data-ride="carousel">
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <img class="d-block img-fluid " src="images/trailer.png" alt="First slide">
                 </div>
             </div>
-        </section>
+        </div>
+        <!--end carousel-->
         <br>
         <br>
         <!-- for video -->
         <div class="col-sm-7 embed-responsive embed-responsive-16by9 ">
             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ztX-iGlZ_Ug"> </iframe>
         </div>
-         <!-- end video -->
+        <!-- end video -->
     </div>
-     <!--end container-->
+    <!--end container-->
     <br>
     <!-- footer -->
-        <footer id="footer-main">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-3">
-                        <h3>Copyright &copy;    2017   Shivam Bajpai </h3>
-                    </div>
-                    <!--end col-sm-4-->
-                    <div>
-                        <ul class="foot">
-                            <h4>Stay In Touch</h4>
-                            <li> <a href="  http://facebook.com/"><i class="fa fa-facebook"></i></a></li>
-                            <li> <a href="#"><i class="fa fa-google"></i></a></li>
-                            <li> <a href="#"><i class="fa fa-instagram"></i></a></li>
-                            <li> <a href="#"><i class="fa fa-youtube"></i></a></li>
-                        </ul>
-                    </div>
-                    <!--end col-sm-6-->
+    <footer id="footer-main">
+        <div class="container ">
+            <div class="row">
+                <div class="col-sm-3 copy">
+                    <h3>Copyright &copy;    2017   Shivam Bajpai </h3>
                 </div>
+                <!--end col-sm-4-->
+                <div class="col-sm-9">
+                    <ul class="foot">
+                        <h3>Stay In Touch</h3>
+                        <li> <a href="  http://facebook.com/"><i class="fa fa-facebook"></i></a></li>
+                        <li> <a href="#"><i class="fa fa-google"></i></a></li>
+                        <li> <a href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li> <a href="#"><i class="fa fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+                <!--end col-sm-6-->
             </div>
-           
-        </footer>
-        <!-- end footer -->
-        <!-- jQuery first, then Tether, then Bootstrap JS. -->
-        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+        </div>
+        <!--end main container-->
+    </footer>
+    </footer>
+    <!-- end footer -->
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 </body>
 
 </html>

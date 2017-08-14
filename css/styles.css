@@ -1,20 +1,14 @@
-#first {
+body {
     background-color: #1B2631;
 }
-
-#tr {
-    margin-top: 100px;
-}
-
 /* --------------------------------------
    Layout
    -------------------------------------- */
-
-h3 {
+h3,
+h4 {
     color: white;
+    text-align: center;
 }
-
-h4,
 p {
     color: white;
     text-align: center;
@@ -23,6 +17,7 @@ p {
 /* --------------------------------------
    movie column images
    -------------------------------------- */
+
 .short {
     width: 55%;
     height: 50%;
@@ -36,55 +31,13 @@ p {
 #latestmovie img {
     margin: 0 0 10px;
 }
-
-
-/* --------------------------------------
-  footer
-   -------------------------------------- */
-
-.foot li {
-    display: inline;
-    padding: 75px;
-    text-align: center;
-}
-
-.foot i {
-    font-size: 1.5rem;
-}
-
-
-#footer-main {
-    background: #222;
-    color: white;
-    padding: 40px 0px;
-}
-
-#latestmovie img:hover {
-    transform: scale(1.15);
-}
-
-.rating .stars {
-    float: left;
-    width: 60px;
-    height: 11px;
-    background: url('images/stars.gif') no-repeat 0 0;
-    margin-left: 500px;
-}
-
-.trailer p {
-    color: black;
-}
-
-
 /* --------------------------------------
    Navbar
    -------------------------------------- */
-
 .size img {
     height: 50px;
     width: 80px;
 }
-
 .navbar-brand {
     padding: 5px 100px;
 }
@@ -92,8 +45,6 @@ p {
 .font {
     padding: 5px 50px;
 }
-
-
 /* --------------------------------------
    Carousel.
    -------------------------------------- */
@@ -105,13 +56,43 @@ p {
     margin-top: 5px;
 }
 
+/* --------------------------------------
+  footer
+   -------------------------------------- */
 
+.foot li {
+    display: inline;
+    padding: 45px;
+    text-align: center;
+}
+
+.foot i {
+    font-size: 1.8rem;
+}
+
+#footer-main {
+    background: #222;
+    color: white;
+    padding: 52px 0px;
+    text-align: center;
+}
+
+#latestmovie img:hover {
+    transform: scale(1.15);
+}
+.rating .stars {
+    float: left;
+    width: 60px;
+    height: 11px;
+    background: url('images/stars.gif') no-repeat 0 0;
+    margin-left: 500px;
+}
+.trailer p {
+    color: black;
+}
 /* --------------------------------------
    Media Queries
    -------------------------------------- */
-
-
-/* Portrait & landscape phone */
 
 @media (max-width: 480px) {
 
@@ -142,9 +123,6 @@ p {
     }
 }
 
-
-/* Landscape phone to portrait tablet */
-
 @media (max-width: 768px) {
 
 
@@ -154,6 +132,7 @@ p {
         align-content: center;
         margin-top: 5px;
     }
+
     /* --------------------------------------
    footer Media Queries
    -------------------------------------- */
@@ -173,26 +152,14 @@ p {
         color: white;
         padding: 40px 0px;
     }
+    .copy h3 {
+        font-size: 20px;
+    }
 }
-
-
-
 /* --------------------------------------
-  second page
+    second page
    -------------------------------------- */
 
-#cover {
-    background: #222 url('../images/trailer.png') center center no-repeat;
-    background-size: cover;
-    color: white;
-    height: 100%;
-    text-align: center;
-    display: flex;
-    align-items: center;
-}
-
-
-#cover-caption {
-
-    margin-top: 640px;
+#maincarousel img {
+    margin-top: 5px;
 }
